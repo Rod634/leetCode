@@ -2,7 +2,6 @@
 {
     public int[] TwoSum(int[] nums, int target)
     {
-
         int[] output = new int[2];
         var alreadySeen = new Dictionary<int, int>();
 
@@ -18,9 +17,7 @@
             {
                 alreadySeen.TryAdd(nums[i], i);
             }
-            
         }
-
         return output;
     }
 }
